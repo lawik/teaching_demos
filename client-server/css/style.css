@@ -1,0 +1,41 @@
+#chat-window {
+    height: 256px;
+    width: 256px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    overflow: auto;
+    padding: 8px;
+}
+
+#chat-text, button {
+    height: 32px;
+    font-size: 1em;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+#chat-text {
+    width: 200px;
+}
+
+.user {
+    font-weight: bold;
+}
+
+.info {
+    color: #339933;
+}
+
+.error {
+    color: #993333;
+}
+
+.line {
+    font-size: 0.8em;
+    font-family: helvetica, sans-serif;
+}
+
+.content {
+    padding-left: 8px;
+}
